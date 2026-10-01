@@ -61,7 +61,7 @@ body {
     --remove-bg-layer: off; /* off: no changes, on: remove the base --bg-3 layer for use with window transparency (WILL OVERRIDE BACKGROUND IMAGE) */
     --panel-blur: off; /* off: no changes, on: blur the background of panels */
     --blur-amount: 12px; /* amount of blur */
-    --bg-floating: var(--bg-3); /* set this to a more opaque color if floating panels look too transparent. only applies if panel blur is on  */
+    --bg-floating: var(--bg-2); /* set this to a more opaque color if floating panels look too transparent. only applies if panel blur is on  */
 
     /* chatbar options */
     --custom-chatbar: off; /* off: default chatbar, separated: chatbar separated from chat */
@@ -84,10 +84,10 @@ body {
     --text-5: hsl(220, 15%, 25%); /* muted channels/chats and timestamps */
 
     /* background and dark colors */
-    --bg-1: hsla(220, 15%, 20%, 1); /* dark buttons when clicked */
-    --bg-2: hsla(220, 15%, 16%, 1); /* dark buttons */
-    --bg-3: hsla(220, 15%, 13%, 1); /* spacing, secondary elements */
-    --bg-4: hsla(220, 15%, 10%, 1); /* main background color */
+    --bg-1: hsla(220, 15%, 13%, 1); /* dark buttons when clicked */
+    --bg-2: hsla(220, 15%, 9%, 1); /* dark buttons */
+    --bg-3: hsla(220, 15%, 6%, 1); /* spacing, secondary elements */
+    --bg-4: hsla(220, 15%, 4%, 1); /* main background color */
     --hover: hsla(221, 19%, 40%, 0.1); /* channels and buttons when hovered */
     --active: hsla(220, 19%, 40%, 0.2); /* channels and buttons when clicked or selected */
     --active-2: hsla(220, 19%, 40%, 0.3); /* extra state for transparent buttons */
