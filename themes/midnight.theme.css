@@ -116,7 +116,7 @@ body {
     --border-light: var(--hover); /* general light border color */
     --border: var(--active); /* general normal border color */
     --border-hover: var(--active); /* border color of panels when hovered */
-    --button-border: hsl(220, 0%, 100%, 0.1); /* neutral border color of buttons */
+    --button-border: hsla(220, 0%, 100%, 0.08); /* neutral border color of buttons */
 
     /* base colors */
     --red-1: oklch(75% 0.12 0);
