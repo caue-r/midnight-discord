@@ -80,18 +80,18 @@ body {
     --text-1: hsl(220, 45%, 95%); /* other normally white text */
     --text-2: hsl(220, 25%, 70%); /* headings and important text */
     --text-3: hsl(220, 20%, 60%); /* normal text */
-    --text-4: hsl(220, 15%, 40%); /* icon buttons and channels */
-    --text-5: hsl(220, 15%, 25%); /* muted channels/chats and timestamps */
+    --text-4: hsl(220, 15%, 46%); /* icon buttons and channels */
+    --text-5: hsl(220, 15%, 32%); /* muted channels/chats and timestamps */
 
     /* background and dark colors */
     --bg-1: hsla(220, 15%, 13%, 1); /* dark buttons when clicked */
     --bg-2: hsla(220, 15%, 9%, 1); /* dark buttons */
     --bg-3: hsla(220, 15%, 6%, 1); /* spacing, secondary elements */
     --bg-4: hsla(220, 15%, 4%, 1); /* main background color */
-    --hover: hsla(221, 19%, 40%, 0.1); /* channels and buttons when hovered */
-    --active: hsla(220, 19%, 40%, 0.2); /* channels and buttons when clicked or selected */
-    --active-2: hsla(220, 19%, 40%, 0.3); /* extra state for transparent buttons */
-    --message-hover: hsla(220, 0%, 0%, 0.1); /* messages when hovered */
+    --hover: hsla(220, 19%, 45%, 0.12); /* channels and buttons when hovered */
+    --active: hsla(220, 19%, 45%, 0.22); /* channels and buttons when clicked or selected */
+    --active-2: hsla(220, 19%, 45%, 0.32); /* extra state for transparent buttons */
+    --message-hover: hsla(220, 15%, 50%, 0.05); /* messages when hovered */
 
     /* accent colors */
     --accent-1: var(--blue-1); /* links and other accent text */
